@@ -2,6 +2,10 @@
 
 Show which lumps differ between two Doom WAD files.
 
+Requires [omgifol](https://github.com/devinacker/omgifol/).
+
+Run `pip install omgifol` before using.
+
 Usage:
 
 `waddiff.py a.wad b.wad`
