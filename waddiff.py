@@ -64,7 +64,7 @@ else:
         elif len(a.groups[i]) == 0 and len(b.groups[i]) == 0:
             continue
         elif len(a.groups[i]) == 0:
-            diffDetected(f"Lump category {a.groups[i]._name} does not exist in {wa} but exists in {wb}")
+            diffDetected(f"Lump category \'{a.groups[i]._name}\' does not exist in {wa} but exists in {wb}")
         else:
-            diffDetected(f"Lump category {a.groups[i]._name} does not exist in {wb} but exists in {wa}")
+            diffDetected(f"Lump category \'{a.groups[i]._name}\' does not exist in {wb} but exists in {wa}")
 sys.exit(differ)
